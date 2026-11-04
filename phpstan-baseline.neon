@@ -1,1 +1,13 @@
 parameters:
+	ignoreErrors:
+		-
+			message: '#^Call to an undefined static method MicroweberPackages\\CdnSync\\Models\\CdnSyncLog\:\:updateOrCreate\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: src/Services/CdnSyncService.php
+
+		-
+			message: '#^Call to an undefined static method MicroweberPackages\\CdnSync\\Models\\CdnSyncLog\:\:where\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 4
+			path: src/Services/CdnSyncService.php
